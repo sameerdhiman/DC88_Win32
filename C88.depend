@@ -1,0 +1,134 @@
+# depslib dependency file v1.0
+1790454388 source:d:\programming_projects\codeblocks\c88\c2.c
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"C2.h"
+	"C3.h"
+	"C4.h"
+	"C6.h"
+	"C7.h"
+	"PASS1.h"
+	"GLBVAR.h"
+	"NODES.h"
+
+1786880567 d:\programming_projects\codeblocks\c88\c2.h
+	<stdint.h>
+
+1789901937 source:d:\programming_projects\codeblocks\c88\c3.c
+	<string.h>
+	<ctype.h>
+	<stdlib.h>
+	"C88.h"
+	"C2.h"
+	"C3.h"
+	"C4.h"
+	"C6.h"
+	"C7.h"
+	"PASS1.h"
+	"GLBVAR.h"
+	"NODES.h"
+	"OBJ.h"
+
+1788184384 d:\programming_projects\codeblocks\c88\c3.h
+	<stdint.h>
+
+1789588670 source:d:\programming_projects\codeblocks\c88\c4.c
+	<string.h>
+	"C88.h"
+	"C3.h"
+	"C4.h"
+	"C5.h"
+	"C6.h"
+	"C7.h"
+	"PASS1.h"
+	"GLBVAR.h"
+	"NODES.h"
+
+1783769523 d:\programming_projects\codeblocks\c88\c4.h
+	<stdint.h>
+
+1790454783 source:d:\programming_projects\codeblocks\c88\c5.c
+	<string.h>
+	"C88.h"
+	"C3.h"
+	"C4.h"
+	"C5.h"
+	"C6.h"
+	"C7.h"
+	"PASS1.h"
+	"GLBVAR.h"
+	"NODES.h"
+	"OBJ.h"
+
+1788183715 d:\programming_projects\codeblocks\c88\c5.h
+	<stdint.h>
+
+1789591380 source:d:\programming_projects\codeblocks\c88\c6.c
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"C2.h"
+	"C6.h"
+	"C7.h"
+	"PASS1.h"
+	"GLBVAR.h"
+	"NODES.h"
+
+1788182852 d:\programming_projects\codeblocks\c88\c6.h
+	<stdint.h>
+
+1789638867 source:d:\programming_projects\codeblocks\c88\c7.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"C2.h"
+	"C6.h"
+	"C7.h"
+	"PASS1.h"
+	"GLBVAR.h"
+	"NODES.h"
+	"OBJ.h"
+
+1786975044 d:\programming_projects\codeblocks\c88\c7.h
+	<stdint.h>
+
+1790517515 source:d:\programming_projects\codeblocks\c88\c88.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<stdint.h>
+	<time.h>
+	"C88.h"
+	"C2.h"
+	"C3.h"
+	"C4.h"
+	"C5.h"
+	"C6.h"
+	"C7.h"
+	"PASS1.h"
+	"GLBVAR.h"
+	"NODES.h"
+	"OBJ.h"
+
+1783795883 d:\programming_projects\codeblocks\c88\c88.h
+	<stdint.h>
+
+1790500801 d:\programming_projects\codeblocks\c88\pass1.h
+	<stdio.h>
+	<stdint.h>
+
+1789589544 d:\programming_projects\codeblocks\c88\glbvar.h
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<time.h>
+
+1782904758 d:\programming_projects\codeblocks\c88\nodes.h
+	<stdint.h>
+
+1122293712 d:\programming_projects\codeblocks\c88\obj.h
+

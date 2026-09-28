@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="C88" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/C88" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="src\00129.c -VE -VS" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/C88" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fcommon" />
+			<Add option="-funsigned-char" />
+		</Compiler>
+		<Unit filename="C2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="C2.h" />
+		<Unit filename="C3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="C3.h" />
+		<Unit filename="C4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="C4.h" />
+		<Unit filename="C5.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="C5.h" />
+		<Unit filename="C6.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="C6.h" />
+		<Unit filename="C7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="C7.h" />
+		<Unit filename="C88.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="C88.h" />
+		<Unit filename="GLBVAR.h" />
+		<Unit filename="NODES.h" />
+		<Unit filename="OBJ.h" />
+		<Unit filename="PASS1.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
