@@ -1,42 +1,3 @@
-/**
-## License & Legal Information
-Released under the GNU GPL v3.  See http://www.gnu.org/licenses/gpl.txt
-
-This project is a port of the classic DeSmet C Compiler from DOS to
-Windows(x86/x64). It combines original source code with modern platform
-adaptations. 
-
-### Compiler Toolchain
-The core compiler toolchain is licensed under the
- **GNU General Public License, Version 3.0 (GPLv3)**. 
-
-The original DeSmet C compiler source code was released under the terms of the
-GNU General Public License, either **Version 2 or any later version**.
-In accordance with that provision, this Windows port exercises the option to
-upgrade the distribution terms to **GPLv3** to ensure modern patent protection
-and better compatibility with contemporary open-source build tools.
-
-* A copy of the full license text is available in the [LICENSE](./LICENSE) file.
-* Original source files retain their historical copyright notices.
-
-#### Original DeSmet C Compiler source code License & Legal Information
-*  Released under the GNU GPL.  See http://www.gnu.org/licenses/gpl.txt
-*
-*  This program is part of the DeSmet C Compiler
-*
-*  DeSmet C is free software; you can redistribute it and/or modify it
-*  under the terms of the GNU General Public License as published by the
-*  Free Software Foundatation; either version 2 of the License, or any
-*  later version.
-*
-*  DeSmet C is distributed in the hope that it will be useful, but WITHOUT
-*  ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
-*  FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
-*  for more details.
-**/
-
-/*  C88 COMPILER PASS1	-	PASS1.H  */
-
 #ifndef PASS1_H_
 #define PASS1_H_
 
@@ -74,9 +35,9 @@ and better compatibility with contemporary open-source build tools.
 // Structure Tag
 #define STAG		2		            /* forward chain, size of structure */
 	typedef struct {
-	    char stagcl;           /* Stag Class */
+	    char stagcl;                    /* Stag Class */
 	    unsigned int schain;            /* Stag Chain */
-	    unsigned int staglen;           /* Stag Length */
+	    unsigned short staglen;         /* Stag Length */
     } __attribute__((packed)) stStag;
 //
 
@@ -105,7 +66,7 @@ and better compatibility with contemporary open-source build tools.
         char *nchain;               /* forward chain of members */
         char nlen;                  /* length of name */
         char nstor;                 /* storage */
-        unsigned int noff;          /* offset */
+        unsigned short noff;        /* offset */  //Fixed: 00188.c (int to short)
         char ntype[1];              /* ordinal means SNo.#*/
     } __attribute__((packed)) stOperand;
 //
